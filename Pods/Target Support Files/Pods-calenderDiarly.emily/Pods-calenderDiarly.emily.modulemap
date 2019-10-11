@@ -1,0 +1,6 @@
+framework module Pods_calenderDiarly_emily {
+  umbrella header "Pods-calenderDiarly.emily-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_calenderDiarly_emily_calenderDiarly_emilyUITests {
+  umbrella header "Pods-calenderDiarly.emily-calenderDiarly.emilyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

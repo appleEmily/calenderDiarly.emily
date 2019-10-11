@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25217AEACA2F802AB05F6BCC /* Pods_calenderDiarly_emilyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92AA40811D020FBD033458 /* Pods_calenderDiarly_emilyTests.framework */; };
+		5895A43FABBBC32A3E96A9F7 /* Pods_calenderDiarly_emily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07735E6344D4FDB3F9CF8B7 /* Pods_calenderDiarly_emily.framework */; };
+		A1BF8F0823506CAF00C4E909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8F0723506CAF00C4E909 /* AppDelegate.swift */; };
+		A1BF8F0A23506CAF00C4E909 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8F0923506CAF00C4E909 /* SceneDelegate.swift */; };
+		A1BF8F0C23506CAF00C4E909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8F0B23506CAF00C4E909 /* ViewController.swift */; };
+		A1BF8F0F23506CAF00C4E909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BF8F0D23506CAF00C4E909 /* Main.storyboard */; };
+		A1BF8F1123506CB400C4E909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BF8F1023506CB400C4E909 /* Assets.xcassets */; };
+		A1BF8F1423506CB400C4E909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BF8F1223506CB400C4E909 /* LaunchScreen.storyboard */; };
+		A1BF8F1F23506CB500C4E909 /* calenderDiarly_emilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8F1E23506CB500C4E909 /* calenderDiarly_emilyTests.swift */; };
+		A1BF8F2A23506CB500C4E909 /* calenderDiarly_emilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8F2923506CB500C4E909 /* calenderDiarly_emilyUITests.swift */; };
+		D15888DB0B4E12CD1983D93A /* Pods_calenderDiarly_emily_calenderDiarly_emilyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E49C0B3DDDE1E340F8E6872 /* Pods_calenderDiarly_emily_calenderDiarly_emilyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1BF8F1B23506CB500C4E909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BF8EFC23506CAF00C4E909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1BF8F0323506CAF00C4E909;
+			remoteInfo = calenderDiarly.emily;
+		};
+		A1BF8F2623506CB500C4E909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BF8EFC23506CAF00C4E909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1BF8F0323506CAF00C4E909;
+			remoteInfo = calenderDiarly.emily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F50B900E1FB4F55C41365CB /* Pods-calenderDiarly.emilyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calenderDiarly.emilyTests.debug.xcconfig"; path = "Target Support Files/Pods-calenderDiarly.emilyTests/Pods-calenderDiarly.emilyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E49C0B3DDDE1E340F8E6872 /* Pods_calenderDiarly_emily_calenderDiarly_emilyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calenderDiarly_emily_calenderDiarly_emilyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540AEEEA915FCE6EC417EB11 /* Pods-calenderDiarly.emily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calenderDiarly.emily.debug.xcconfig"; path = "Target Support Files/Pods-calenderDiarly.emily/Pods-calenderDiarly.emily.debug.xcconfig"; sourceTree = "<group>"; };
+		5B92AA40811D020FBD033458 /* Pods_calenderDiarly_emilyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calenderDiarly_emilyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A198064C079FC7DB6BA1A190 /* Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.debug.xcconfig"; path = "Target Support Files/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BF8F0423506CAF00C4E909 /* calenderDiarly.emily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calenderDiarly.emily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BF8F0723506CAF00C4E909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1BF8F0923506CAF00C4E909 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1BF8F0B23506CAF00C4E909 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1BF8F0E23506CAF00C4E909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1BF8F1023506CB400C4E909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1BF8F1323506CB400C4E909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1BF8F1523506CB400C4E909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BF8F1A23506CB500C4E909 /* calenderDiarly.emilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calenderDiarly.emilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BF8F1E23506CB500C4E909 /* calenderDiarly_emilyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderDiarly_emilyTests.swift; sourceTree = "<group>"; };
+		A1BF8F2023506CB500C4E909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BF8F2523506CB500C4E909 /* calenderDiarly.emilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calenderDiarly.emilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BF8F2923506CB500C4E909 /* calenderDiarly_emilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderDiarly_emilyUITests.swift; sourceTree = "<group>"; };
+		A1BF8F2B23506CB500C4E909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CC77611AA31921EB789165 /* Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.release.xcconfig"; path = "Target Support Files/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB676555DA578B0A0F0F2ACB /* Pods-calenderDiarly.emilyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calenderDiarly.emilyTests.release.xcconfig"; path = "Target Support Files/Pods-calenderDiarly.emilyTests/Pods-calenderDiarly.emilyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E07735E6344D4FDB3F9CF8B7 /* Pods_calenderDiarly_emily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calenderDiarly_emily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97BF189C4D7ECD6FC950D7C /* Pods-calenderDiarly.emily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calenderDiarly.emily.release.xcconfig"; path = "Target Support Files/Pods-calenderDiarly.emily/Pods-calenderDiarly.emily.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1BF8F0123506CAF00C4E909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5895A43FABBBC32A3E96A9F7 /* Pods_calenderDiarly_emily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BF8F1723506CB500C4E909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25217AEACA2F802AB05F6BCC /* Pods_calenderDiarly_emilyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BF8F2223506CB500C4E909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15888DB0B4E12CD1983D93A /* Pods_calenderDiarly_emily_calenderDiarly_emilyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1BF8EFB23506CAE00C4E909 = {
+			isa = PBXGroup;
+			children = (
+				A1BF8F0623506CAF00C4E909 /* calenderDiarly.emily */,
+				A1BF8F1D23506CB500C4E909 /* calenderDiarly.emilyTests */,
+				A1BF8F2823506CB500C4E909 /* calenderDiarly.emilyUITests */,
+				A1BF8F0523506CAF00C4E909 /* Products */,
+				AD575AC0AC8D8DE21D04FB09 /* Pods */,
+				EFCA8E434954BB4E1FB974A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1BF8F0523506CAF00C4E909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF8F0423506CAF00C4E909 /* calenderDiarly.emily.app */,
+				A1BF8F1A23506CB500C4E909 /* calenderDiarly.emilyTests.xctest */,
+				A1BF8F2523506CB500C4E909 /* calenderDiarly.emilyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1BF8F0623506CAF00C4E909 /* calenderDiarly.emily */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF8F0723506CAF00C4E909 /* AppDelegate.swift */,
+				A1BF8F0923506CAF00C4E909 /* SceneDelegate.swift */,
+				A1BF8F0B23506CAF00C4E909 /* ViewController.swift */,
+				A1BF8F0D23506CAF00C4E909 /* Main.storyboard */,
+				A1BF8F1023506CB400C4E909 /* Assets.xcassets */,
+				A1BF8F1223506CB400C4E909 /* LaunchScreen.storyboard */,
+				A1BF8F1523506CB400C4E909 /* Info.plist */,
+			);
+			path = calenderDiarly.emily;
+			sourceTree = "<group>";
+		};
+		A1BF8F1D23506CB500C4E909 /* calenderDiarly.emilyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF8F1E23506CB500C4E909 /* calenderDiarly_emilyTests.swift */,
+				A1BF8F2023506CB500C4E909 /* Info.plist */,
+			);
+			path = calenderDiarly.emilyTests;
+			sourceTree = "<group>";
+		};
+		A1BF8F2823506CB500C4E909 /* calenderDiarly.emilyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF8F2923506CB500C4E909 /* calenderDiarly_emilyUITests.swift */,
+				A1BF8F2B23506CB500C4E909 /* Info.plist */,
+			);
+			path = calenderDiarly.emilyUITests;
+			sourceTree = "<group>";
+		};
+		AD575AC0AC8D8DE21D04FB09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				540AEEEA915FCE6EC417EB11 /* Pods-calenderDiarly.emily.debug.xcconfig */,
+				F97BF189C4D7ECD6FC950D7C /* Pods-calenderDiarly.emily.release.xcconfig */,
+				A198064C079FC7DB6BA1A190 /* Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.debug.xcconfig */,
+				A7CC77611AA31921EB789165 /* Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.release.xcconfig */,
+				0F50B900E1FB4F55C41365CB /* Pods-calenderDiarly.emilyTests.debug.xcconfig */,
+				BB676555DA578B0A0F0F2ACB /* Pods-calenderDiarly.emilyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFCA8E434954BB4E1FB974A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E07735E6344D4FDB3F9CF8B7 /* Pods_calenderDiarly_emily.framework */,
+				1E49C0B3DDDE1E340F8E6872 /* Pods_calenderDiarly_emily_calenderDiarly_emilyUITests.framework */,
+				5B92AA40811D020FBD033458 /* Pods_calenderDiarly_emilyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1BF8F0323506CAF00C4E909 /* calenderDiarly.emily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BF8F2E23506CB500C4E909 /* Build configuration list for PBXNativeTarget "calenderDiarly.emily" */;
+			buildPhases = (
+				881B5B55B940F1D410CE469F /* [CP] Check Pods Manifest.lock */,
+				A1BF8F0023506CAF00C4E909 /* Sources */,
+				A1BF8F0123506CAF00C4E909 /* Frameworks */,
+				A1BF8F0223506CAF00C4E909 /* Resources */,
+				A89DFE05424B5CAF18FC58B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calenderDiarly.emily;
+			productName = calenderDiarly.emily;
+			productReference = A1BF8F0423506CAF00C4E909 /* calenderDiarly.emily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1BF8F1923506CB500C4E909 /* calenderDiarly.emilyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BF8F3123506CB500C4E909 /* Build configuration list for PBXNativeTarget "calenderDiarly.emilyTests" */;
+			buildPhases = (
+				1A1562EEF1418B5EA3C0F693 /* [CP] Check Pods Manifest.lock */,
+				A1BF8F1623506CB500C4E909 /* Sources */,
+				A1BF8F1723506CB500C4E909 /* Frameworks */,
+				A1BF8F1823506CB500C4E909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1BF8F1C23506CB500C4E909 /* PBXTargetDependency */,
+			);
+			name = calenderDiarly.emilyTests;
+			productName = calenderDiarly.emilyTests;
+			productReference = A1BF8F1A23506CB500C4E909 /* calenderDiarly.emilyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1BF8F2423506CB500C4E909 /* calenderDiarly.emilyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BF8F3423506CB500C4E909 /* Build configuration list for PBXNativeTarget "calenderDiarly.emilyUITests" */;
+			buildPhases = (
+				A60788D56D5F0AB3E39F465C /* [CP] Check Pods Manifest.lock */,
+				A1BF8F2123506CB500C4E909 /* Sources */,
+				A1BF8F2223506CB500C4E909 /* Frameworks */,
+				A1BF8F2323506CB500C4E909 /* Resources */,
+				5F9581012C869A521FA3618C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1BF8F2723506CB500C4E909 /* PBXTargetDependency */,
+			);
+			name = calenderDiarly.emilyUITests;
+			productName = calenderDiarly.emilyUITests;
+			productReference = A1BF8F2523506CB500C4E909 /* calenderDiarly.emilyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1BF8EFC23506CAF00C4E909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = emily.com;
+				TargetAttributes = {
+					A1BF8F0323506CAF00C4E909 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A1BF8F1923506CB500C4E909 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A1BF8F0323506CAF00C4E909;
+					};
+					A1BF8F2423506CB500C4E909 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A1BF8F0323506CAF00C4E909;
+					};
+				};
+			};
+			buildConfigurationList = A1BF8EFF23506CAF00C4E909 /* Build configuration list for PBXProject "calenderDiarly.emily" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1BF8EFB23506CAE00C4E909;
+			productRefGroup = A1BF8F0523506CAF00C4E909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1BF8F0323506CAF00C4E909 /* calenderDiarly.emily */,
+				A1BF8F1923506CB500C4E909 /* calenderDiarly.emilyTests */,
+				A1BF8F2423506CB500C4E909 /* calenderDiarly.emilyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1BF8F0223506CAF00C4E909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF8F1423506CB400C4E909 /* LaunchScreen.storyboard in Resources */,
+				A1BF8F1123506CB400C4E909 /* Assets.xcassets in Resources */,
+				A1BF8F0F23506CAF00C4E909 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BF8F1823506CB500C4E909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BF8F2323506CB500C4E909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1562EEF1418B5EA3C0F693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calenderDiarly.emilyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9581012C869A521FA3618C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881B5B55B940F1D410CE469F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calenderDiarly.emily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A60788D56D5F0AB3E39F465C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A89DFE05424B5CAF18FC58B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calenderDiarly.emily/Pods-calenderDiarly.emily-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calenderDiarly.emily/Pods-calenderDiarly.emily-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-calenderDiarly.emily/Pods-calenderDiarly.emily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1BF8F0023506CAF00C4E909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF8F0C23506CAF00C4E909 /* ViewController.swift in Sources */,
+				A1BF8F0823506CAF00C4E909 /* AppDelegate.swift in Sources */,
+				A1BF8F0A23506CAF00C4E909 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BF8F1623506CB500C4E909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF8F1F23506CB500C4E909 /* calenderDiarly_emilyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BF8F2123506CB500C4E909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF8F2A23506CB500C4E909 /* calenderDiarly_emilyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1BF8F1C23506CB500C4E909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1BF8F0323506CAF00C4E909 /* calenderDiarly.emily */;
+			targetProxy = A1BF8F1B23506CB500C4E909 /* PBXContainerItemProxy */;
+		};
+		A1BF8F2723506CB500C4E909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1BF8F0323506CAF00C4E909 /* calenderDiarly.emily */;
+			targetProxy = A1BF8F2623506CB500C4E909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1BF8F0D23506CAF00C4E909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BF8F0E23506CAF00C4E909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1BF8F1223506CB400C4E909 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BF8F1323506CB400C4E909 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1BF8F2C23506CB500C4E909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1BF8F2D23506CB500C4E909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1BF8F2F23506CB500C4E909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540AEEEA915FCE6EC417EB11 /* Pods-calenderDiarly.emily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = calenderDiarly.emily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.calenderDiarly-emily";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1BF8F3023506CB500C4E909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97BF189C4D7ECD6FC950D7C /* Pods-calenderDiarly.emily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = calenderDiarly.emily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.calenderDiarly-emily";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1BF8F3223506CB500C4E909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F50B900E1FB4F55C41365CB /* Pods-calenderDiarly.emilyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = calenderDiarly.emilyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.calenderDiarly-emilyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calenderDiarly.emily.app/calenderDiarly.emily";
+			};
+			name = Debug;
+		};
+		A1BF8F3323506CB500C4E909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB676555DA578B0A0F0F2ACB /* Pods-calenderDiarly.emilyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = calenderDiarly.emilyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.calenderDiarly-emilyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calenderDiarly.emily.app/calenderDiarly.emily";
+			};
+			name = Release;
+		};
+		A1BF8F3523506CB500C4E909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A198064C079FC7DB6BA1A190 /* Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = calenderDiarly.emilyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.calenderDiarly-emilyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calenderDiarly.emily;
+			};
+			name = Debug;
+		};
+		A1BF8F3623506CB500C4E909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CC77611AA31921EB789165 /* Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = calenderDiarly.emilyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emily.com.calenderDiarly-emilyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calenderDiarly.emily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1BF8EFF23506CAF00C4E909 /* Build configuration list for PBXProject "calenderDiarly.emily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BF8F2C23506CB500C4E909 /* Debug */,
+				A1BF8F2D23506CB500C4E909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BF8F2E23506CB500C4E909 /* Build configuration list for PBXNativeTarget "calenderDiarly.emily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BF8F2F23506CB500C4E909 /* Debug */,
+				A1BF8F3023506CB500C4E909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BF8F3123506CB500C4E909 /* Build configuration list for PBXNativeTarget "calenderDiarly.emilyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BF8F3223506CB500C4E909 /* Debug */,
+				A1BF8F3323506CB500C4E909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BF8F3423506CB500C4E909 /* Build configuration list for PBXNativeTarget "calenderDiarly.emilyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BF8F3523506CB500C4E909 /* Debug */,
+				A1BF8F3623506CB500C4E909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1BF8EFC23506CAF00C4E909 /* Project object */;
+}
