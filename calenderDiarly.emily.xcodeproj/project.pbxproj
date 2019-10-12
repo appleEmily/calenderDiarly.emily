@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		A1BF8F1423506CB400C4E909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BF8F1223506CB400C4E909 /* LaunchScreen.storyboard */; };
 		A1BF8F1F23506CB500C4E909 /* calenderDiarly_emilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8F1E23506CB500C4E909 /* calenderDiarly_emilyTests.swift */; };
 		A1BF8F2A23506CB500C4E909 /* calenderDiarly_emilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8F2923506CB500C4E909 /* calenderDiarly_emilyUITests.swift */; };
+		A1BF8F3A2351FF3A00C4E909 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BF8F392351FF3900C4E909 /* flower.png */; };
 		D15888DB0B4E12CD1983D93A /* Pods_calenderDiarly_emily_calenderDiarly_emilyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E49C0B3DDDE1E340F8E6872 /* Pods_calenderDiarly_emily_calenderDiarly_emilyUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		A1BF8F2523506CB500C4E909 /* calenderDiarly.emilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calenderDiarly.emilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BF8F2923506CB500C4E909 /* calenderDiarly_emilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderDiarly_emilyUITests.swift; sourceTree = "<group>"; };
 		A1BF8F2B23506CB500C4E909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BF8F392351FF3900C4E909 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 		A7CC77611AA31921EB789165 /* Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.release.xcconfig"; path = "Target Support Files/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests/Pods-calenderDiarly.emily-calenderDiarly.emilyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BB676555DA578B0A0F0F2ACB /* Pods-calenderDiarly.emilyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calenderDiarly.emilyTests.release.xcconfig"; path = "Target Support Files/Pods-calenderDiarly.emilyTests/Pods-calenderDiarly.emilyTests.release.xcconfig"; sourceTree = "<group>"; };
 		E07735E6344D4FDB3F9CF8B7 /* Pods_calenderDiarly_emily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calenderDiarly_emily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				A1BF8F1023506CB400C4E909 /* Assets.xcassets */,
 				A1BF8F1223506CB400C4E909 /* LaunchScreen.storyboard */,
 				A1BF8F1523506CB400C4E909 /* Info.plist */,
+				A1BF8F392351FF3900C4E909 /* flower.png */,
 			);
 			path = calenderDiarly.emily;
 			sourceTree = "<group>";
@@ -155,7 +158,6 @@
 				0F50B900E1FB4F55C41365CB /* Pods-calenderDiarly.emilyTests.debug.xcconfig */,
 				BB676555DA578B0A0F0F2ACB /* Pods-calenderDiarly.emilyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BF8F3A2351FF3A00C4E909 /* flower.png in Resources */,
 				A1BF8F1423506CB400C4E909 /* LaunchScreen.storyboard in Resources */,
 				A1BF8F1123506CB400C4E909 /* Assets.xcassets in Resources */,
 				A1BF8F0F23506CAF00C4E909 /* Main.storyboard in Resources */,
